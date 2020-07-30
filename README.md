@@ -4,7 +4,7 @@ Web application to scrape and analyze data from [untappd.com](https://untappd.co
 
 ## Using the Application
 
-* Navigate to the application (locally or at [https://brandone.github.io/untappd-scraper-web](https://brandone.github.io/untappd-scraper-web)).
+* Navigate to the application (locally or at [https://brandone.github.io/untappd-scraper-web/](https://brandone.github.io/untappd-scraper-web/)).
 * Enter an Untappd user's username.
 * Optionally, check the "Recent Activity only" box to limit the amount of data retrieved.
 * Optionally, enter a Google Maps API Key and click "Set" in order to generate a map of the locations at which this user has logged a drink.
@@ -46,7 +46,7 @@ npm install
 npm run deploy
 ```
 
-The application should now be available at https://YOUR_GITHUB_USERNAME.github.io/untappd-scraper-web
+The application should now be available at https://YOUR_GITHUB_USERNAME.github.io/untappd-scraper-web/
 
 ## Linting the Application
 
