@@ -255,6 +255,10 @@ export default class Index extends Component {
             <Table title="Venues: " data={this.state.data.venues.sort(sortVisitDates)} valueFormatter={params => {
               const columnName = params.column.colId
 
+              if (!params.value) {
+                return params.value
+              }
+
               if (columnName === 'firstVisitDate') {
                 return params.value ? moment(params.value).format(dateFormat) : undefined
               }
