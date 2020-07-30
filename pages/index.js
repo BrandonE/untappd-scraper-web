@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Helmet } from "react-helmet";
+import { Helmet } from 'react-helmet'
 import { Tooltip } from 'react-tippy'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faQuestionCircle } from '@fortawesome/free-solid-svg-icons'

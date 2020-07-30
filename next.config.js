@@ -5,8 +5,8 @@ const debug = process.env.NODE_ENV !== 'production'
 const config = withCSS(withImages({
   inlineImageLimit: 65536,
   webpack (config, options) {
-    config.output.publicPath = !debug ?
-      `/untappd-scraper-web${config.output.publicPath}` : config.output.publicPath
+    config.output.publicPath = !debug
+      ? `/untappd-scraper-web${config.output.publicPath}` : config.output.publicPath
     return config
   }
 }))
