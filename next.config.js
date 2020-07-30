@@ -6,11 +6,11 @@ const config = withCSS(withImages({
   inlineImageLimit: 65536,
   webpack (config, options) {
     config.output.publicPath = !debug ?
-      `/untappdScraper${config.output.publicPath}` : config.output.publicPath
+      `/untappd-scraper-web${config.output.publicPath}` : config.output.publicPath
     return config
   }
 }))
 
-config.assetPrefix = !debug ? '/untappdScraper/' : ''
+config.assetPrefix = !debug ? '/untappd-scraper-web/' : ''
 
 module.exports = config

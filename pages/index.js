@@ -202,7 +202,7 @@ export default class Index extends Component {
     return (
       <div className="container">
         <Helmet>
-          <title>untappdScraper</title>
+          <title>untappdScraper Web</title>
         </Helmet>
         <menu className="navbar-menu">
           { true && <img id="logo-img" src={logoImg} alt="logoImg" /> }

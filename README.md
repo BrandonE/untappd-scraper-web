@@ -50,7 +50,7 @@ npm install
 npm run deploy
 ```
 
-The application should now be available at https://YOUR_GITHUB_USERNAME.github.io/untappdScraper/
+The application should now be available at https://YOUR_GITHUB_USERNAME.github.io/untappd-scraper-web
 
 ## Linting the Application
 
