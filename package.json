@@ -24,7 +24,7 @@
     "@zeit/next-css": "1.0.1",
     "ag-grid-community": "23.0.2",
     "ag-grid-react": "23.0.2",
-    "axios": "0.19.2",
+    "axios": "0.21.1",
     "cheerio": "1.0.0-rc.3",
     "lodash.startcase": "4.4.0",
     "moment-timezone": "0.5.28",
